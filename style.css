@@ -65,7 +65,7 @@ First page
 }
 
 .main:hover {
-  background: rgba(91,136,158,0.3);
+  background: rgba(91,136,158,0.7);
   transition: 0.5s all;
 }
 
@@ -89,8 +89,15 @@ First page
   border-radius: 50%;
   width: 50px;
   height: 50px;
-  margin: 0 20px;
+  margin: 20px;
   background: rgba(255,255,255, 0.5);
+}
+
+.ico-size:hover{
+  background: #679AB2;
+  color: white;
+  transform: scale(1.1);
+  transition: 0.5s;
 }
 
 
@@ -146,7 +153,12 @@ Third page
   color: #fff;
   border-radius: 20px;
   background: #4F778A;
-  opacity: 0;
+  transition: 0.5s;
+}
+
+.project-separator:hover{
+  transform:scale(1.15);
+  transition: 0.5s;
 }
 
 
