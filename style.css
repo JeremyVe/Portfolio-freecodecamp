@@ -9,6 +9,7 @@ nav li:last-child {
 
 
 .bg-1 {
+  position: relative;
   min-height: 100vh;
   background: -webkit-linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.5)), url(https://pixabay.com/static/uploads/photo/2015/01/08/18/25/startup-593327_960_720.jpg);
   repeat: none;
@@ -49,12 +50,29 @@ First page
   font-weight: 100;
   letter-spacing: 5px;
   font-size: 70px;
-  padding-top: 150px;
 }
+
+
+.main {
+  position: absolute;
+  left: 50%;
+  margin-left: -150px;
+  background: rgba(91,136,158,0.5);
+  display: inline-block;
+  max-width: 300px;
+  margin-top: 150px;
+  transition: 0.5s;
+}
+
+.main:hover {
+  background: rgba(91,136,158,0.3);
+  transition: 0.5s all;
+}
+
 
 .second {
   font-size: 30px;
-  padding-top: 60px;
+  padding-top: 500px;
   padding-bottom: 20px;
 }
 
@@ -92,6 +110,7 @@ Second page
 
 .layout-img {
   margin-top: 100px;
+  opacity: 0;
 }
 
 
@@ -127,6 +146,7 @@ Third page
   color: #fff;
   border-radius: 20px;
   background: #4F778A;
+  opacity: 0;
 }
 
 
@@ -162,6 +182,7 @@ Last page
 
 .contact {
   font-size: 60px;
+  margin-top: 100px;
 }
 
 
