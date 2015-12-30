@@ -1,0 +1,187 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+
+nav li:last-child {
+  margin-right: 50px;
+}
+
+
+.bg-1 {
+  min-height: 100vh;
+  background: -webkit-linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.5)), url(https://pixabay.com/static/uploads/photo/2015/01/08/18/25/startup-593327_960_720.jpg);
+  repeat: none;
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-2 {
+  min-height: 100vh;
+  background: #fff;
+  repeat: none;
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-3 {
+  min-height: 100vh;
+  background: #679AB2;
+}
+
+.bg-4 {
+  min-height: 100vh;
+  background: -webkit-linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.5)), url(https://pixabay.com/static/uploads/photo/2015/01/08/18/26/write-593333_960_720.jpg);
+  repeat: none;
+  background-position: center;
+  background-size: cover;
+}
+
+
+/*
+
+First page
+
+*/
+
+.title {
+  color: #fff;
+  font-weight: 100;
+  letter-spacing: 5px;
+  font-size: 70px;
+  padding-top: 150px;
+}
+
+.second {
+  font-size: 30px;
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+
+.separation {
+  width: 70%;
+  border-bottom: 1px solid #fff;
+  margin: 0 auto 40px;
+}
+
+.ico-size {
+  font-size: 30px;
+  line-height: 50px;
+  border: 0;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin: 0 20px;
+  background: rgba(255,255,255, 0.5);
+}
+
+
+/*
+
+Second page
+
+*/
+
+.layout-text {
+  font-size: 35px;
+  margin-top: 200px;
+  font-weight: 100;
+  padding-left: 40px;
+}
+
+
+.layout-img {
+  margin-top: 100px;
+}
+
+
+
+/*
+
+Third page
+
+*/
+
+.title-projects {
+  display: block;
+  width: 70%;
+  color: #fff;
+  font-weight: 100;
+  font-size: 45px;
+  margin: 50px auto 0;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #fff;
+
+}
+
+
+.projects {
+  margin-top: 100px;
+}
+
+
+.project-separator {
+  width: 90%;
+  margin: 0 auto;
+  border: 0;
+  color: #fff;
+  border-radius: 20px;
+  background: #4F778A;
+}
+
+
+.crop {
+  width: 100%;
+  margin: 0 auto;
+  height: 170px;
+  overflow: hidden;
+}
+
+
+.crop img {
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.bg-3 p {
+  width: 80%;
+  margin: 10px auto;
+  text-align: center;
+  line-height: 25px;
+  font-weight: 100;
+}
+
+
+
+/*
+
+Last page
+
+*/
+
+.contact {
+  font-size: 60px;
+}
+
+
+.container-form {
+  width: 80%;
+  margin: 0 auto;
+}
+
+form {
+  margin-top: 150px;
+}
+
+form label {
+  color: white;
+  font-weight: 100;
+}
+
+
+
+
+
+
+
